@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+
+body {
+    font-family: 'Hubballi';
+    color: #b0b1d9;
+    margin: 0;
+    /*background-color: #d5e8e9; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,153,1) 35%, rgba(0,212,255,1) 100%);
+}
+header {
+    background-color: #1362c1;
+    color: white !important;
+}
+
+.nav {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.list-item {
+    margin-right: 20px;
+}
+
+.list-item:last-child {
+    margin-right: 0;
+}
+
+.list-item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.list-item a:hover {
+    font-size: 20px;
+    color: #8687a5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-titulo {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo-bienvenida {
+    font-size: 36px;
+    text-align: center;
+    color: #8a8dff;;
+    letter-spacing: 3px;
+    margin: 80px 0 50px 0;
+}
+
+.texto-bienvenida {
+    font-size: 2em;
+    text-align: center;
+    color: #8a8dff;
+    letter-spacing: 3px;
+}
+
+.img-bienvenida {
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo-menu {
+    font-size: 30px;
+    color: #8a8dff;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    
+   justify-content: center;
+}
+
+.tarjeta-menu {
+    /*height: 240px;
+    width: 350px; */
+    background-color: #8a93e2;
+    font-size: 25px;
+    font-weight: 900;
+    color: #eeeeee ;
+    border-radius: 20px;
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.tarjeta-menu:hover {
+    transform: scale(1.05);
+}
+
+.img-tarjeta-menu {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: -76px;
+    width: 30%;
+    border-radius: 25px;
+}
+
+.img-desc {
+    float: right;
+    margin-right: 20px;
+    padding-bottom: -150px;
+}
+
+form {
+    border: 1px solid #a2a3d3;
+    padding: 20px 100px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    color: #d6d6f5;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1f8ef5;
+}
+
+.titulo-pedidos {
+    text-align: center;
+    margin: 50px 0;
+    color: #8a8dff;
+}
+
+.titulo-armalo {
+    text-align: center;
+}
+
+.datos-personales {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.label-input label {
+    display: block;
+    margin-top: 10px;
+}
+
+.label-input input {
+    width: 90%;
+    margin: 5px;
+    
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.pasteles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pastel-personalizado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-enviar {
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    background-color: #276dee;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #d4d5f8;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 50px 0 20px 0;
+}
+
+.btn-enviar:hover {
+    transform: scale(1.05);
+}
+
+#inventario table {
+    margin: 0 auto;
+}
+
+#inventario table,
+th,
+td {
+    border: 1px solid #b0b1d9;
+    border-collapse: collapse;
+}
+
+th {
+    min-width: 300px;
+}
+
+footer {
+    background-color: #E5F6F0;
+    color: #b0b1d9;
+}
+
+footer p span {
+    margin-right: 10px;
+}
+
+footer .contenedor {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/* Estilos Admin */
+
+.inventario{
+ background-color: #1f8ef5;   
+ color: #d4d5f8;
+ font-size: 26px;
+ font-weight: bold;
+
+}
