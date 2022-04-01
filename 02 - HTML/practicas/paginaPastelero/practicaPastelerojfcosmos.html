@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú del pastelero</title>
+  </head>
+  <body>
+    <!-- Headings -->
+    <h1>Pastelería jfcosmos menú Pastelero</h1>
+
+    <!-- Parrafos -->
+    <p>
+     Pagína del pastelero donde encontrara los ingredientes que les queda para  el pedido 
+    </p>
+
+    <!-- Links / Enlaces -->
+
+    <!-- Imágenes -->
+    <img
+      src=""
+      alt="Pasteles en una pasteleria"
+      width="350px"
+      height="350px"
+    />
+
+    <!-- Tablas -->
+    <table>
+      <tr>
+        <th>Pastel</th>
+        <th>Cantidad que queda</th>
+      </tr>
+      <tr>
+        <td>Limon</td>
+        <td> <label for="vol">Piezas (entre 0 y 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50" /></td>
+      </tr>
+      <tr>
+        <td>Fresa</td>
+        <td> <label for="vol">Piezas (entre 0 y 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50" /></td>
+      </tr>
+      <tr>
+        <td>Tres leches</td>
+        <td> <label for="vol">Piezas (entre 0 y 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50" /></td>
+      </tr>
+    </table>
+
+    <table>
+        <tr>
+          <th>Adorno</th>
+          <th>Cantidad de Adornos</th>
+        </tr>
+        <tr>
+          <td>Flores</td>
+          <td> <label for="vol">Piezas (entre 0 y 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50" /></td>
+        </tr>
+        <tr>
+          <td>Dibujos</td>
+          <td> <label for="vol">Piezas (entre 0 y 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50" /></td>
+        </tr>
+        <tr>
+          <td>Velas</td>
+          <td> <label for="vol">Piezas (entre 0 y 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50" /></td>
+        </tr>
+      </table>
+      
+    <h2>El cliente selecciono con las  siguientes caracteristicas (Sabores,tamaño y adorno)</h2>
+    <br />
+    <form action="/accion.js" id="form1" method="post">
+   
+
+    <label for="numero1">Nombre del cliente</label><br />
+    <input type="number" id="numero1" name="numero1" /><br /><br />
+    <label for="correo1">Correo del Cliente</label><br />
+    <input type="email" id="correo1" name="correo1" /><br /><br />
+    <label for="numero1">El Número Telefonico del cliente es</label><br />
+    <input type="number" id="numero1" name="numero1" /><br /><br />
+   
+    <label for="correo1">Ingredientes, Adornos y Caracteristicas que tiene el pedido</label><br />
+    <input type="checkbox" id="topping1" name="topping1" value="Limon" />
+    <label for="topping1">Limon</label><br />
+    <input type="checkbox" id="topping2" name="topping2" value="Fresa" />
+    <label for="topping2">Fresa</label><br />
+    <input type="checkbox" id="topping3" name="topping3" value="TresLeches" />
+    <label for="topping3">Tres Leches</label><br />
+    <input type="checkbox" id="topping3" name="topping3" value="Chico" />
+    <label for="topping3">Chico</label><br />
+    <input type="checkbox" id="topping3" name="topping3" value="Mediano" />
+    <label for="topping3">Mediano</label><br />
+    <input type="checkbox" id="topping3" name="topping3" value="Grande" />
+    <label for="topping3">Grande</label><br />
+    <input type="checkbox" id="topping3" name="topping3" value="Flores" />
+    <label for="topping3">Flores</label><br />
+    <input type="checkbox" id="topping3" name="topping3" value="Dibujo" />
+    <label for="topping3">Dibujo</label><br />
+    <input type="checkbox" id="topping3" name="topping3" value="Velas" />
+    <label for="topping3">Velas</label><br />
+    
+ </form>
+
+ <footer>
+    <p>Pastelería jfcosmos, Bulevard #1057 Pte,  Tel: 461 666 999 Horarios: 10:00 a 18:00 hrs </p>
+</footer>
+  
+  </body>
+</html>

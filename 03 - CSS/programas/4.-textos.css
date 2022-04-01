@@ -38,12 +38,12 @@
 .decoradoCombinado{
     text-decoration-line: underline;
     text-decoration-color: red;
-    text-decoration-style: dotted;
-    text-decoration-thickness: 5px;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 4px;
 }
 
 .negritas{
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .ligeras{
